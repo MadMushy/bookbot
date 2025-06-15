@@ -12,4 +12,7 @@ def char_counts(file_contents):
             char_count[char] += 1
         else:
             char_count[char] = 1
-    return char_count 
+    return char_count
+
+def sort_on(char_list_dict):
+    return char_list_dict["num"]
